@@ -24,4 +24,39 @@ This script avoids recording the microphone and works out-of-the-box on CachyOS 
 Install on Arch/CachyOS:
 
 ```bash
-sudo pacman -S wf-recorder slurp ffmpeg
+1. Download or clone this repository:
+
+git clone https://github.com/abdessamed01/hyprland-screen-record
+cd hyprland-screen-record
+
+
+2. Make the script executable:
+
+chmod +x record-screen.sh
+
+Usage
+
+Run the script:
+
+./record-screen.sh
+
+
+The output file will be saved as: recording_YYYY-MM-DD_HH-MM-SS.mp4
+
+Press CTRL+C to stop recording.
+
+Optional Customizations
+
+Change the default output folder
+
+Add a Hyprland keybind to start/stop recording
+
+Modify the script to record a selected region instead of full screen
+
+License
+
+This project is licensed under the MIT License.
+
+Author
+
+ABDESSAMED YOUSFI.
